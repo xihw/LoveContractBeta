@@ -8,15 +8,15 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a723058209e58243a958ffd9f3db71b280fa9023b266e12b04302907c65ccb88f735a02600029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058209e58243a958ffd9f3db71b280fa9023b266e12b04302907c65ccb88f735a02600029",
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a7230582015c79cfad4fc6043de0bed4e65e07fdd69a6229b2d697f617db8918905050dbe0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582015c79cfad4fc6043de0bed4e65e07fdd69a6229b2d697f617db8918905050dbe0029",
   "sourceMap": "26:208:2:-;;;186:46;;;;;;;;217:10;209:5;;:18;;;;;;;;;;;;;;;;;;26:208;;;;;;",
   "deployedSourceMap": "26:208:2:-;;;;;",
   "source": "pragma solidity ^0.4.11;\n\ncontract Owned {\n  // State variable\n  address owner;\n\n  // Modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // constructor\n  function Owned() {\n    owner = msg.sender;\n  }\n}\n",
-  "sourcePath": "/Users/abe/Downloads/chainlist-17-inheritance-end/contracts/Owned.sol",
+  "sourcePath": "/Users/abe/Desktop/LoveContracts/contracts/Owned.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/Users/abe/Downloads/chainlist-17-inheritance-end/contracts/Owned.sol",
+      "absolutePath": "/Users/abe/Desktop/LoveContracts/contracts/Owned.sol",
       "exportedSymbols": {
         "Owned": [
           357
@@ -360,5 +360,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-01-10T00:38:56.619Z"
+  "updatedAt": "2018-01-10T03:37:30.320Z"
 }
